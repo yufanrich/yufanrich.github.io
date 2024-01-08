@@ -29,7 +29,7 @@ jobs:
         uses: peaceiris/actions-gh-pages@v3
         if: github.ref == 'refs/heads/master'
         with:
-          github_token: ${{ secrets.GITHUB_TOKEN }}
+          github_token: ${{ secrets.PERSONAL_TOKEN }}
           publish_dir: ./public
           # 以上只是发布到gh-pages分支 没有回创建，但git pages不会更新
           publish_branch: master
