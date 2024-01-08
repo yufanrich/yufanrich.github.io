@@ -31,3 +31,6 @@ jobs:
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
           publish_dir: ./public
+          # 以上只是发布到gh-pages分支 没有回创建，但git pages不会更新
+          publish_branch: master
+          external_repository: yufanrich/yufanrich.github.io # Pages 远程仓库
