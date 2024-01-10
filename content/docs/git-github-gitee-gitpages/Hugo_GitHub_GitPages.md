@@ -143,3 +143,11 @@ Error: Action failed with "The process'/usr/bin/git' failed with exit code 128"
 找到仓库下的settings->Actions->General，往下翻找到Workflow permissions，
 勾选下面的选项Read and write permissions即可
 ```
+
+# 4 总结
+以上就完成了自动化建立博客和自动化部署的全部流程。
+但是:随着md文档的编写以及博客的排版格式,我们需要一些进阶知识的学习。
+如:怎么直接上传html文件？
+   md文档怎么上传图片?
+   博客如何实现层级结果以及检索功能。
+欢迎wx search:小猿code
