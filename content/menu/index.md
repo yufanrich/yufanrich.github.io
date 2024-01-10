@@ -1,6 +1,9 @@
 ---
 headless: true
 ---
+- [**Git GitHub]({{< relref "/docs/git-github-gitee-gitpages" >}})
+  - [Hugo建站]({{< relref "/docs/git-github-gitee-gitpages/Hugo_GitHub_GitPages" >}})
+  - [Hugo建站(进阶)]({{< relref "/docs/git-github-gitee-gitpages/Hugo_GitHub_GitPages_Advance" >}})
 
 - [**Example Site**]({{< relref "/docs/example" >}})
 - [Table of Contents]({{< relref "/docs/example/table-of-contents" >}})
