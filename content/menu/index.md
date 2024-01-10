@@ -4,6 +4,14 @@ headless: true
 - [**Git GitHub]({{< relref "/docs/git-github-gitee-gitpages" >}})
   - [Hugo建站]({{< relref "/docs/git-github-gitee-gitpages/Hugo_GitHub_GitPages" >}})
   - [Hugo建站(进阶)]({{< relref "/docs/git-github-gitee-gitpages/Hugo_GitHub_GitPages_Advance" >}})
+<br />
+
+- [**Example Site 2**]({{< relref "/docs/example" >}})
+- [Table of Contents]({{< relref "/docs/example/table-of-contents" >}})
+  - [With ToC]({{< relref "/docs/example/table-of-contents/with-toc" >}})
+  - [Without ToC]({{< relref "/docs/example/table-of-contents/without-toc" >}})
+- [Collapsed]({{< relref "/docs/example/collapsed" >}})
+<br />
 
 - [**Example Site**]({{< relref "/docs/example" >}})
 - [Table of Contents]({{< relref "/docs/example/table-of-contents" >}})
