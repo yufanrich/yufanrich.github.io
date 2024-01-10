@@ -122,11 +122,24 @@ Branch
 ```
 
 ### 2.4 新建博客(md文档),提交git即可
-1 本地生成网站源代码
-```
-hugo 
 
-ps:注意 不是hugo server (这只是本地模拟,然后访问http://localhost:1313/ 看效果)
-   hugo 才会再public文件夹下生成网站源代码
 ```
-2 提交git后,会自动触发git actions,从而把Hugo的产出输出到指定分支,且git page 会自动监听变化,重新部署网站
+提交git后,会自动触发git actions,从而把Hugo的产出输出到指定分支,
+且git page 会自动监听变化,重新部署网站
+```
+
+# 3 常见错误及解决方案
+
+## 3.1 Hugo Server本地样式很好看,GitHub page 样式错乱 (css/js等文件404)
+```
+hugo.toml 
+baseURL = 'https://{you_name}.github.io/'
+```
+
+## 3.2 git actions 执行报错 
+
+Error: Action failed with "The process'/usr/bin/git' failed with exit code 128"
+```
+找到仓库下的settings->Actions->General，往下翻找到Workflow permissions，
+勾选下面的选项Read and write permissions即可
+```
