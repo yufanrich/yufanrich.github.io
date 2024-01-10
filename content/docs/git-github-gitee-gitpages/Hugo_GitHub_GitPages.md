@@ -10,7 +10,7 @@
 (ps:Hugo也有同类替代品,如Hexo、Jekyll(GitHub默认首选))
 
 其实:后面用的多了,一个项目可以同时提交到Gitee和GitHub后,完全可以同时部署在Gitee和GitHub.
-(ps:一个项目如何同时提交到Gitee和GitHub? vx公众号:小程三千问)
+(ps:一个项目如何同时提交到Gitee和GitHub? vx公众号:小猿code)
 ```
 
 # 2 实战
