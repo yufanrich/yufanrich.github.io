@@ -1,5 +1,6 @@
 baseURL = 'https://yufanrich.github.io/'
-languageCode = 'en-us'
+# languageCode = 'en-us'
+defaultContentLanguage = 'zh'
 title = 'yufanrich的个人博客'
 theme = 'hugo-book'
 # hugo -book config start

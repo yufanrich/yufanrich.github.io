@@ -45,11 +45,19 @@ BookMenuBundle = '/menu'
 
 ## 2.5 网站支持中英文搜索
 ```bash
+1 hugo.toml 去除其他语言配置,改为如下配置
+defaultContentLanguage = 'zh'
+2 将 themes/hugo-book/i18n/zh.yaml 中的 id: bookSearchConfig 内容修改如下即可
 - id: bookSearchConfig
   translation: |
     {
       split: " "
     }
+3 搜索范围
+  支持文章内容以及文章名称,但是不支持给菜单起的别名。
+  其更多的支持一句文章开头开始检索/或则某个词前后用空格。
+  即类似于一句话 或一个词 从头开始能匹配。:前缀匹配
+  不支持一句话中某几个字模糊查询。
 ```
 
 
