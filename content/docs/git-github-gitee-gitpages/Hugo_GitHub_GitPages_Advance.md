@@ -24,9 +24,34 @@ theme = 'hugo-book'
 
 
 ## 2.2 文章设置层级结构
+```
+模仿层级结构进行编辑
+content/menu/index.md with the content:
+
+启用菜单
+hugo.toml
+[params]
+BookMenuBundle = '/menu'
+```
 
 ## 2.3 md文档引入图片
+```bash
+针对此hugo-book的主题,默认就是在static即可
+![](logo.jpg)
+```
+![](/logo.jpg)
 
 ## 2.4 设置网站联系人及介绍
+
+## 2.5 网站支持中英文搜索
+```bash
+- id: bookSearchConfig
+  translation: |
+    {
+      split: " "
+    }
+```
+
+
 
 欢迎wx search:小猿code
