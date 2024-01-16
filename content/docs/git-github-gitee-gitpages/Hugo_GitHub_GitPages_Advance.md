@@ -42,6 +42,15 @@ BookMenuBundle = '/menu'
 ![](/logo.jpg)
 
 ## 2.4 设置网站联系人及介绍
+```bash
+在footer.html设置公众号联系人
+一般主题都会预留一个公共的底部编辑文件,供自由填充
+  <div>
+    <p>公众号：小猿code<br/></p>
+    <p>扫码关注<br/></p>
+    <p><img src="{{ "gzh.jpg" | relURL }}" alt="小猿code" style="width: 150px; height: 150px;"/></p>
+  </div>
+```
 
 ## 2.5 网站支持中英文搜索
 ```bash
@@ -58,6 +67,13 @@ defaultContentLanguage = 'zh'
   其更多的支持一句文章开头开始检索/或则某个词前后用空格。
   即类似于一句话 或一个词 从头开始能匹配。:前缀匹配
   不支持一句话中某几个字模糊查询。
+```
+
+## 2.5 md文档如何发布公众号
+```bash
+实时预览及复制效果粘贴公众号即可
+https://md.openwrite.cn/
+https://markdown.com.cn/editor/
 ```
 
 
