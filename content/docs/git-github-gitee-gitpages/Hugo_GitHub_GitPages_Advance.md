@@ -75,7 +75,7 @@ defaultContentLanguage = 'zh'
 https://md.openwrite.cn/
 https://markdown.com.cn/editor/
 ```
-效果展示
+效果
 
 
 
