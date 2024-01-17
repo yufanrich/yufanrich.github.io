@@ -51,6 +51,7 @@ BookMenuBundle = '/menu'
     <p><img src="{{ "gzh.jpg" | relURL }}" alt="小猿code" style="width: 150px; height: 150px;"/></p>
   </div>
 ```
+![](/github/xg_footer.png)
 
 ## 2.5 网站支持中英文搜索
 ```bash
@@ -74,9 +75,13 @@ defaultContentLanguage = 'zh'
 实时预览及复制效果粘贴公众号即可
 https://md.openwrite.cn/
 https://markdown.com.cn/editor/
+个人
+https://wangchujiang.com/wxmp/#/?theme=underscore
+https://md.aclickall.com/
+https://md.barretlee.com/
 ```
 效果
-
+![](/github/xg_weixingzhpaiban.png)
 
 
 欢迎wx search:小猿code
