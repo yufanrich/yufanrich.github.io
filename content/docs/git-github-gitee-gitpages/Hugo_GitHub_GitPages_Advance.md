@@ -80,7 +80,7 @@ https://wangchujiang.com/wxmp/#/?theme=underscore
 https://md.aclickall.com/
 https://md.barretlee.com/
 ```
-效果展示
+效果
 ![](/github/xg_weixingzhpaiban.png)
 
 
