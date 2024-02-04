@@ -4,6 +4,7 @@ headless: true
 - **Git GitHub**
   - [Hugo建站]({{< relref "/docs/git-github-gitee-gitpages/Hugo_GitHub_GitPages" >}})
   - [Hugo建站(进阶)]({{< relref "/docs/git-github-gitee-gitpages/Hugo_GitHub_GitPages_Advance" >}})
+  - [Hugo建站(进阶)]({{< relref "/docs/git-github-gitee-gitpages/Hugo_MarkDown_PicGo" >}})
 <br />
 
 - [**Example Site**]({{< relref "/docs/example" >}})
