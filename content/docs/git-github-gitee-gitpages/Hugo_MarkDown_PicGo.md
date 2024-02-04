@@ -12,6 +12,7 @@
 
 ### 1.2 搭建gitee图床
 新建仓库
+![](https://gitee.com/yufanrich/yufanimgs/blob/master/img/001%E4%BB%93%E5%BA%93%E5%9C%B0%E5%9D%80.png)
 
 新建令牌
 
