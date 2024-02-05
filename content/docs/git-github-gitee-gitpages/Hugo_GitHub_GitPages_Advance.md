@@ -46,9 +46,13 @@ BookMenuBundle = '/menu'
 在footer.html设置公众号联系人
 一般主题都会预留一个公共的底部编辑文件,供自由填充
   <div>
+    <p>安利一波:</p>
+    <p>欢迎朋友们点赞 👍、收藏 💗、关注 💡、分享 😊 在看 👀,任意一连支持一下:</p>
+    <p>欢迎朋友们关注我的公众号:</p>
     <p>公众号：小猿code<br/></p>
     <p>扫码关注<br/></p>
     <p><img src="{{ "gzh.jpg" | relURL }}" alt="小猿code" style="width: 150px; height: 150px;"/></p>
+    <p>行有不得,反求诸己。进而有所得。我们下期再见🎉🎉🎉<br/></p>
   </div>
 ```
 ![](/github/xg_footer.png)
