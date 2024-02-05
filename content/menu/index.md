@@ -5,7 +5,7 @@ headless: true
   - [Hugo建站]({{< relref "/docs/git-github-gitee-gitpages/Hugo_GitHub_GitPages" >}})
   - [Hugo建站(进阶)]({{< relref "/docs/git-github-gitee-gitpages/Hugo_GitHub_GitPages_Advance" >}})
   - [Hugo建站(高阶)]({{< relref "/docs/git-github-gitee-gitpages/Hugo_MarkDown_PicGo" >}})
-  - [Hugo建站(高阶)]({{< relref "/docs/git-github-gitee-gitpages/Hugo_GitHub_Summary" >}})
+  - [Hugo建站(总结)]({{< relref "/docs/git-github-gitee-gitpages/Hugo_GitHub_Summary" >}})
 <br />
 
 - [**Example Site**]({{< relref "/docs/example" >}})
