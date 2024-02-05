@@ -11,8 +11,7 @@
 
 ## 1 搭建个人网站和公众号所用工具汇总
 ### 1.1 流程图
-![](https://raw.githubusercontent.com/yufanrich/yufanimgs/master/img/20240205个人博客和网站工具集合.drawio.png)
-
+![](https://raw.githubusercontent.com/yufanrich/yufanimgs/master/img/20240205%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2%E5%92%8C%E7%BD%91%E7%AB%99%E5%B7%A5%E5%85%B7%E9%9B%86%E5%90%88.drawio.png)
 ### 1.2 工具介绍
 Hugo:用于建立网站(纯html网站,我们使用md编写,会帮我们转换到html)
 
