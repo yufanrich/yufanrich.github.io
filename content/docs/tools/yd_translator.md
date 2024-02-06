@@ -40,6 +40,7 @@ ps:如果是ie浏览器或者safari浏览器,一般都默认自带中英文翻�
 ### 2.5 图片识别
 
 图片里面文字提取,这也是一个意外惊喜,有时候需要提取图片的文字,没想到翻译软件也集成了，不错不错。
+![](https://raw.githubusercontent.com/yufanrich/yufanimgs/master/img/20240206145111_pictranslator.png)  
 ![](https://raw.githubusercontent.com/yufanrich/yufanimgs/master/img/20240206120604_ydfy_图片识别.png)
 
 ## 总结

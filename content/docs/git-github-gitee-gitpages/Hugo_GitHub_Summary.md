@@ -1,9 +1,9 @@
 # 总计个人建站所用到的工具类
 ## 背景
-在前面三篇文章中,我们分别
-从小白建站:https://mp.weixin.qq.com/s/bVO-GGXNxGSjV-qd-a3CvQ
-美化站点(美化排版):https://mp.weixin.qq.com/s/UX1wYyKgEg8RVGs7fhd_Zg
-美化图片排版(搭建图床服务器):https://mp.weixin.qq.com/s/p_ad-eOF7Ss61LVM7GYvwA
+在前面三篇文章中,我们分别从  
+[小白建站](https://mp.weixin.qq.com/s/bVO-GGXNxGSjV-qd-a3CvQ)  
+[美化站点(美化排版)](https://mp.weixin.qq.com/s/UX1wYyKgEg8RVGs7fhd_Zg)  
+[美化图片排版(搭建图床服务器)](https://mp.weixin.qq.com/s/p_ad-eOF7Ss61LVM7GYvwA)  
 三个方面分别对我们的内容进行了优化,并实现了一份内容编写,
 同时支持个人网站和公众号文章双部署。
 下面我们对所用到的工具进行一个汇总和总结,让我们更熟练的使用各个工具
