@@ -12,6 +12,10 @@ headless: true
   - [网页翻译插件]({{< relref "/docs/tools/yd_translator" >}})
 <br />
 
+- **一些感悟**
+  - [如何开始如何进步]({{< relref "/docs/letter/如何开始如何进步" >}})
+<br />
+
 - [**Example Site**]({{< relref "/docs/example" >}})
 - [Table of Contents]({{< relref "/docs/example/table-of-contents" >}})
   - [With ToC]({{< relref "/docs/example/table-of-contents/with-toc" >}})
