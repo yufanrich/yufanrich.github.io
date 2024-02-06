@@ -8,6 +8,10 @@ headless: true
   - [Hugo建站(总结)]({{< relref "/docs/git-github-gitee-gitpages/Hugo_GitHub_Summary" >}})
 <br />
 
+- **工具集合**
+  - [网页翻译插件]({{< relref "/docs/tools/yd_translator" >}})
+<br />
+
 - [**Example Site**]({{< relref "/docs/example" >}})
 - [Table of Contents]({{< relref "/docs/example/table-of-contents" >}})
   - [With ToC]({{< relref "/docs/example/table-of-contents/with-toc" >}})
