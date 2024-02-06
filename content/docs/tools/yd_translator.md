@@ -12,7 +12,7 @@ ps:如果是ie浏览器或者safari浏览器,一般都默认自带中英文翻�
 官网地址:https://magicfanyi.youdao.com/#/  
 
 软件简介
-![](https://raw.githubusercontent.com/yufanrich/yufanimgs/master/img/20240206115137.png)
+![](https://raw.githubusercontent.com/yufanrich/yufanimgs/master/img/202402/ydyfy_简介.png)
 
 安装步奏
 ```bash
@@ -22,26 +22,26 @@ ps:如果是ie浏览器或者safari浏览器,一般都默认自带中英文翻�
 ```
 
 安装完成
-![](https://raw.githubusercontent.com/yufanrich/yufanimgs/master/img/20240206115403.png)
+![](https://raw.githubusercontent.com/yufanrich/yufanimgs/master/img/202402/ydyfy_002_install.png)
 
 ### 2.2 效果演示
 
 测试网站:https://dictionary.cambridge.org/  
-![](https://raw.githubusercontent.com/yufanrich/yufanimgs/master/img/20240206115734_ydfy_xgzs.png)
+![](https://raw.githubusercontent.com/yufanrich/yufanimgs/master/img/202402/ydyfy_003_xiaoguo.png)
 
 ### 2.3 使用习惯调优
-![](https://raw.githubusercontent.com/yufanrich/yufanimgs/master/img/20240206115855_ydfn_tiaoyou.png)
+![](https://raw.githubusercontent.com/yufanrich/yufanimgs/master/img/202402/ydyfy_004_tiaoyou.png)
 
 ### 2.4 值得一提的是:大模型翻译
 
 虽然大模型现在是实验性质,但是随着模型的优化,感觉未来可期。
-![](https://raw.githubusercontent.com/yufanrich/yufanimgs/master/img/20240206120245_ydfy_ai.png)
+![](https://raw.githubusercontent.com/yufanrich/yufanimgs/master/img/202402/ydyfy_005_aifanyi.png)
 
 ### 2.5 图片识别
 
 图片里面文字提取,这也是一个意外惊喜,有时候需要提取图片的文字,没想到翻译软件也集成了，不错不错。
-![](https://raw.githubusercontent.com/yufanrich/yufanimgs/master/img/20240206145111_pictranslator.png)  
-![](https://raw.githubusercontent.com/yufanrich/yufanimgs/master/img/20240206120604_ydfy_图片识别.png)
+![](https://raw.githubusercontent.com/yufanrich/yufanimgs/master/img/202402/ydyfy_006_picfanyi.png)
+![](https://raw.githubusercontent.com/yufanrich/yufanimgs/master/img/202402/ydyfy_007_picfanyi.png)
 
 ## 总结
 
