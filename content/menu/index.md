@@ -22,7 +22,7 @@ headless: true
   - [Java特性]({{< relref "/docs/interview/003java特性" >}})
   - [Spring]({{< relref "/docs/interview/004spring" >}})
   - [数据库mysql_redis_es]({{< relref "/docs/interview/005软件数据库_mysql_redis_es" >}})
-  - [高并发高可用理论及实战]({{< relref "/docs/interview/006计算机基础" >}})
+  - [高并发高可用理论及实战]({{< relref "/docs/interview/006高并发高可用理论及实战" >}})
   - [项目亮点]({{< relref "/docs/interview/007项目亮点" >}})
   - [公司真题]({{< relref "/docs/interview/008公司真题" >}})
   - [大数据]({{< relref "/docs/interview/009大数据" >}})
