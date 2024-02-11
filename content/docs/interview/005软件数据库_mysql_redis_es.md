@@ -1,4 +1,7 @@
 # mysql
+## mysql计算题
+[1 mysql自增id超过上限制(有无使用自增主键)](https://mp.weixin.qq.com/s/k0w5jKwR-e2YroArRopwWg)
+[mysql为什么建议2000万数据:主键类型/b+树索引](https://mp.weixin.qq.com/s/wEeamF6erUipFQnE4DrwlA)
 
 # redis
 ## 1 概念篇
@@ -21,7 +24,8 @@ https://xiaolincoding.com/redis/
 ## 7 缓存常见问题(雪崩、穿透、击透、双写多数据源一致性问题)
 
 ## 8 数据是如何存取的（一个大的交互图）:需要后续自己完善
-
+name ---redis里面如何存储--集群--如何读取
+https://xiaolincoding.com/redis/data_struct/data_struct.html#%E9%94%AE%E5%80%BC%E5%AF%B9%E6%95%B0%E6%8D%AE%E5%BA%93%E6%98%AF%E6%80%8E%E4%B9%88%E5%AE%9E%E7%8E%B0%E7%9A%84
 
 ```
 
