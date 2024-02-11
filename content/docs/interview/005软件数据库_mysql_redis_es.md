@@ -1,7 +1,15 @@
 # mysql
 ## mysql计算题
 [1 mysql自增id超过上限制(有无使用自增主键)](https://mp.weixin.qq.com/s/k0w5jKwR-e2YroArRopwWg)
-[mysql为什么建议2000万数据:主键类型/b+树索引](https://mp.weixin.qq.com/s/wEeamF6erUipFQnE4DrwlA)
+[2 mysql为什么建议2000万数据:主键类型/b+树索引](https://mp.weixin.qq.com/s/wEeamF6erUipFQnE4DrwlA)
+
+## 基础篇
+[mysql一行记录是怎么存储的](https://xiaolincoding.com/mysql/base/row_format.html)
+[mysql数据页分为哪几个部分](https://mp.weixin.qq.com/s/wEeamF6erUipFQnE4DrwlA)
+[mysql数据页结构以及如何在单页和多个数据页之间检索](https://mp.weixin.qq.com/s/QHA80Y2G5UxuRhLT9LBMDg)
+
+## 索引篇
+[多个数据页时,抽象特殊的数据页-即索引页及innodb引擎的b+树](https://mp.weixin.qq.com/s/QHA80Y2G5UxuRhLT9LBMDg)
 
 # redis
 ## 1 概念篇
