@@ -2,6 +2,7 @@
 2 操作系统 # 3 数据结构 #</description></item><item><title/><link>https://yufanrich.github.io/docs/interview/002%E7%AE%97%E6%B3%95/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://yufanrich.github.io/docs/interview/002%E7%AE%97%E6%B3%95/</guid><description/></item><item><title/><link>https://yufanrich.github.io/docs/interview/003java%E7%89%B9%E6%80%A7/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://yufanrich.github.io/docs/interview/003java%E7%89%B9%E6%80%A7/</guid><description/></item><item><title/><link>https://yufanrich.github.io/docs/interview/004spring/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://yufanrich.github.io/docs/interview/004spring/</guid><description/></item><item><title/><link>https://yufanrich.github.io/docs/interview/005%E8%BD%AF%E4%BB%B6%E6%95%B0%E6%8D%AE%E5%BA%93_mysql_redis_es/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://yufanrich.github.io/docs/interview/005%E8%BD%AF%E4%BB%B6%E6%95%B0%E6%8D%AE%E5%BA%93_mysql_redis_es/</guid><description> mysql # mysql计算题 # 1 mysql自增id超过上限制(有无使用自增主键) 2 mysql为什么建议2000万数据:主键类型/b+树索引 3 为什么不能使用uuid,单表自增-分布式优化的雪花算法id
 基础篇 # mysql一行记录是怎么存储的 mysql数据页分为哪几个部分 mysql数据页结构以及如何在单页和多个数据页之间检索
 索引篇 # 多个数据页时,抽象特殊的数据页-即索引页及innodb引擎的b+树 为什么选择b+树,io及范围查询
+事物篇 # 事务隔离机制 脏读(脏) 不可重复读(两次读取的不一致) 幻读(第一次未select到,插入却冲突) 快照读 当前读
 redis # 1 概念篇 # 1 redis是什么,基于什么语言编写,常见的使用场景是什么，常见的数据类型有哪些，与memcached的区别 链接
 2 数据类型篇 # 2.1 常见的数据类型有哪些，以及是如何实现的？ [2.2 redis为什么要重新定义字符串 sds (同上)]
 3 持久化篇 # https://xiaolincoding.com/redis/
