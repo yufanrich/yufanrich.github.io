@@ -14,6 +14,9 @@
 ![索引也是存在磁盘上](https://raw.githubusercontent.com/yufanrich/yufanimgs/master/img/202402/20240211_索引存储位置.png)
 [为什么选择b+树,io及范围查询](https://mp.weixin.qq.com/s/q2cv-cF8LszowOYmmvi97g)
 
+## 事物篇
+[事务隔离机制 脏读(脏) 不可重复读(两次读取的不一致) 幻读(第一次未select到,插入却冲突) 快照读 当前读](https://mp.weixin.qq.com/s/NI8R0BFfeOYaazzZw7AOeg)
+
 # redis
 ## 1 概念篇
 1 redis是什么,基于什么语言编写,常见的使用场景是什么，常见的数据类型有哪些，与memcached的区别
