@@ -41,7 +41,8 @@
 
 ## 锁篇
 [间隙锁到底怎么加(间隙锁是双开)，在于有没有索引，next-key临键锁就是gap+杭锁(左开右闭)](https://mp.weixin.qq.com/s/te62kTnMBexAC-P0TF0j_A)
-
+[mysql锁到底锁的什么？RR级别下才有的next-key lock和gap lock,加锁规则：两个原则，两个优化，一个bug](https://mp.weixin.qq.com/s/fmSHG0SejfD0IdnpIYHT9w)
+[mysql加锁的两个决定因素 隔离级别以及记录是否存在](https://mp.weixin.qq.com/s/TEXjgA85vUrvx2Q6O5Id1A)
 
 # redis
 ## 1 概念篇
