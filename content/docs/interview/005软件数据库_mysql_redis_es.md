@@ -14,12 +14,34 @@
 ![索引也是存在磁盘上](https://raw.githubusercontent.com/yufanrich/yufanimgs/master/img/202402/20240211_索引存储位置.png)
 [为什么选择b+树,io及范围查询](https://mp.weixin.qq.com/s/q2cv-cF8LszowOYmmvi97g)
 
-## 事物篇
+## 事务篇
+### 问题串联
+```bash
+事务:有限的数据库操作序列？
+四大特性以及隔离级别,以及mysql默认的隔离级别和大厂默认的隔离级别（间隙锁容易导致死锁）？
+幻读的本质,幻读与不可重复读分别侧重什么？查询条数和查询内容？
+
+```
+### 问题详解
 [事务隔离机制 脏读(脏) 不可重复读(两次读取的不一致) 幻读(第一次未select到,插入却冲突) 快照读 当前读](https://mp.weixin.qq.com/s/NI8R0BFfeOYaazzZw7AOeg)
 ```
-一般而言,幻读是指查询条数不一致。（比如第一次没查询到，但是插入时提示冲突（有一条）0和1不一样）
+一般而言,幻读是指查询条数不一致。（
+  比如第一次没查询到(普通select)，但是插入时提示冲突（有一条）0和1不一样(delete和update默认都是当前读)）
+  幻读问题的本质是:快照读和当前读混用了。如果都是快照读(没有更新)或者都是当前读（select for update加锁）就不会有问题
 不可重复读是指查询数据的内容不一致
+
 ```
+
+[幻读的本质](https://mp.weixin.qq.com/s/Ny-29jwQ02rDhEVuLoSxmA)
+[rr级别由于mvcc+间隙锁基本解决了大部分幻读，但是极端场景的不能解决，因为其本质还是快照读与当前读，不能完全解决]()
+[名词解释](https://mp.weixin.qq.com/s/NI8R0BFfeOYaazzZw7AOeg)
+[mysql的默认隔离级别是RR,为什么不是RC.主要考虑bin log同步sql原文导致的不一致问题，但是为什么大厂又是默认RC](https://mp.weixin.qq.com/s/IW07pFvlrNnT4HYxWZkj0w)
+[什么是快找读,什么是read view](https://mp.weixin.qq.com/s/IW07pFvlrNnT4HYxWZkj0w)
+[mvcc并发控制-主要是解决读写冲突及举例隐藏字段如何进行可见行判断的](https://mp.weixin.qq.com/s/ZVsuqpaKTAMeA0SyqRbqyw)
+
+## 锁篇
+[间隙锁到底怎么加(间隙锁是双开)，在于有没有索引，next-key临键锁就是gap+杭锁(左开右闭)](https://mp.weixin.qq.com/s/te62kTnMBexAC-P0TF0j_A)
+
 
 # redis
 ## 1 概念篇
