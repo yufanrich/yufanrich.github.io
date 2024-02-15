@@ -37,7 +37,7 @@
 [名词解释](https://mp.weixin.qq.com/s/NI8R0BFfeOYaazzZw7AOeg)
 [mysql的默认隔离级别是RR,为什么不是RC.主要考虑bin log同步sql原文导致的不一致问题，但是为什么大厂又是默认RC](https://mp.weixin.qq.com/s/IW07pFvlrNnT4HYxWZkj0w)
 [什么是快找读,什么是read view](https://mp.weixin.qq.com/s/IW07pFvlrNnT4HYxWZkj0w)
-[mvcc并发控制-主要是解决读写冲突及举例隐藏字段如何进行可见行判断的](https://mp.weixin.qq.com/s/ZVsuqpaKTAMeA0SyqRbqyw)
+[(可见性规则判单 一问搞懂mvcc)三类并发场景及mvcc并发控制-主要是解决读写冲突及举例隐藏字段如何进行可见行判断的](https://mp.weixin.qq.com/s/ZVsuqpaKTAMeA0SyqRbqyw)
 
 ## 锁篇
 [间隙锁到底怎么加(间隙锁是双开)，在于有没有索引，next-key临键锁就是gap+杭锁(左开右闭)](https://mp.weixin.qq.com/s/te62kTnMBexAC-P0TF0j_A)
@@ -55,6 +55,7 @@
 
 ## 3 持久化篇
 https://xiaolincoding.com/redis/
+[epoll源码分析一个对象两个数据结构三个api接口](https://zhuanlan.zhihu.com/p/552580039)
 
 ## 4 过期策略与内存淘汰策略
 
